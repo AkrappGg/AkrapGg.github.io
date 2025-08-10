@@ -1,0 +1,49 @@
+body {
+    min-height: 2000px;
+}
+
+.jumbotron {
+    padding-top: 7rem ;
+    background-color: #e2edff;
+}
+
+#about {
+     background-color: #ffffff;
+}
+
+
+#projects {
+ background-color: #e2edff;
+
+}
+
+section {
+    padding-top: 9rem;
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+} 
+
+/* Tablet */
+@media (max-width: 768px) { 
+    html {
+    font-size: 68%;
+  }
+
+  
+
+}
+/* Hp */
+@media (max-width: 576px) { 
+    html {
+    font-size: 63%;
+  }
+
+ 
+}
